@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+            <script src="js/jquery.js"></script>
+            <script src="js/script.js"></script>
+            
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Efeito Neon</title>
+
+ </head>
+
+<body class="body">
+    
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+
+<main class="main_content container">
+
+    
+    <section class="busca-neon">
+        <div>
+            <h2>CRIPTOGRAFE AQUI!</h2>
+        </div>
+        <form action="" method="">          
+            
+            <!--<input class="input-neon" type="search" placeholder="Busca..."><br><br>-->
+            <section class="sec">
+
+                <label  class="label1" for="mensagem1">Escreva uma mensagem:</label>
+                <textarea class="input-neon2"  cols="30" rows="3" name="msg1" id="msg1"></textarea><br><br><br>
+                
+            </section>
+          
+
+                <label class="mt" for="escolhaMetodo">MÉTODO:</label><br>
+                <select class="input-neon3" name="cifras" id="cifras">
+                    <option value="emBranco">Escolha</option>
+                    <option value="cesar" id="cCesar">Cifra de César</option>
+                    <option value="base" id="b64">Base64</option>
+                </select><br>
+            
+                
+            <div class="seletorCesar" style="display: none;">
+                <p>Incremento da Cifra de César: </p>
+                <div><input type="number" class="input-neon5" name="posiçãoCesar" id="posiçãoCesar" min="1" max="26"></div>
+            </div><br><br>
+
+
+               <div class="radioType">
+                    <input type="radio" name="options" value="criptografar" id="criptografar">
+                    <label for="criptografar" id="labelCriptografar">Criptografar?</label> <br><br>
+                    
+                    <input type="radio" name="options" value="descriptografar" id="descriptografar">
+                    <label for="descriptografar" id="labelDescriptografar">Descriptografar?</label> <br><br>
+                </div><br><br><br>
+            </form>
+            
+
+    <div class="botaomsg">
+        <input type="submit" class="btn" id="submit" value="OK" style="display: flex;">
+        
+        <input type="submit" class="btn" id="submit" value="OK" style="display: none;">
+    </div><br><br>
+
+
+    <label for="resultado"  id="resultado"> </label>
+    <textarea name="msg2" class="input-neon4" id="msg2" cols="30" rows="3"></textarea>
+
+    
+    
+
+            <!--<button class="btn">Busca</button>-->
+            
+
+    </section>
+
+    
+    <section>
+        
+        </section>
+</main>
+
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+
+        
+
+</body>
+
+</html>
